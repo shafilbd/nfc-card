@@ -26,7 +26,7 @@ export default function PersonalInfoTwo() {
           
 
           <div className="bostami-parsonal-info-btn mb-30"  >
-            <a className="btn-1 circle mobile_version" href="/cv.pdf" download>
+            <a className="btn-1 circle mobile_version" href="/shajid-vcard.vcf" download>
               <span className="icon">
                 <i className="fa-regular fa-download"></i>
               </span>
