@@ -1,10 +1,10 @@
 //import { profileInfo } from "@/data/profileInfo";
-import {ShajidProfile} from "@/data/shajid_profile";
-import { socialMediaData } from "@/data/socials";
+import {ShafilAhmedC} from "@/data/shafilahmedc";
+import { socialMediaData } from "@/data/socials_shafil";
 import Image from "next/image";
 import React from "react";
 
-export default function PersonalInfoTwo() {
+export default function shafilahmedc() {
   return (
     <div className="col-12">
       <div className="bostami-parsonal-info-area bostami-parsonal-info-2-area">
@@ -13,20 +13,20 @@ export default function PersonalInfoTwo() {
             <Image
               width={240}
               height={240}
-              src={ShajidProfile.imageSrcOne}
+              src={ShafilAhmedC.imageSrcOne}
               alt="profile"
             />
           </div>
 
           <h4 className="bostami-parsonal-info-name">
-            <a href="#">{ShajidProfile.name}</a>
+            <a href="#">{ShafilAhmedC.name}</a>
           </h4>
-          <span className="bostami-parsonal-info-bio mb-15">{ShajidProfile.title}</span>
+          <span className="bostami-parsonal-info-bio mb-15">{ShafilAhmedC.title}</span>
 
           
 
           <div className="bostami-parsonal-info-btn mb-30"  >
-            <a className="btn-1 circle mobile_version" href="/shajid-vcard.vcf" download>
+            <a className="btn-1 circle mobile_version" href="/shafilahmedc.vcf" download>
               <span className="icon">
                 <i className="fa-regular fa-download"></i>
               </span>

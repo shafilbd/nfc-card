@@ -1,20 +1,20 @@
 import HeaderFive from "@/components/homes/headers/HeaderFive";
-import PersonalInfoTwo from "@/components/homes/personalInfo/PersonalInfoTwo";
+import ShafilAhmedC from "@/components/homes/personalInfo/shafilahmedc";
 import React from "react";
 
 export const metadata = {
-  title: "Shajid Portfolio",
+  title: "Shafil Ahmed Chowdhury",
   description:
-    "Discover Botami,the most impressive portfolio template for work showcase, blog",
+    "Software Developer",
 };
-export default function ShajidAhamed() {
+export default function shafilahmed() {
   return (
     <>
       <div className="page-wrapper page-wrapper-2">
         <HeaderFive />
         <div className="bostami-page-area z-index-3">
           <div className="container">
-            <PersonalInfoTwo />
+            <ShafilAhmedC />
           </div>
         </div>
       </div>
