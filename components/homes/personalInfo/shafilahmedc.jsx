@@ -6,7 +6,7 @@ import React from "react";
 
 export default function shafilahmedc() {
   return (
-    <div className="col-12">
+    <div className="col-12 content-center">
       <div className="bostami-parsonal-info-area bostami-parsonal-info-2-area">
         <div className="bostami-parsonal-info-wrap">
           <div className="bostami-parsonal-info-img">
@@ -17,14 +17,23 @@ export default function shafilahmedc() {
               alt="profile"
             />
           </div>
-
-          <h4 className="bostami-parsonal-info-name">
+          <div className="section__profession">
+            <span className="bostami-parsonal-info-bio mb-15">{ShafilAhmedC.title}</span>
+          </div>
+          {/* <h4 className="bostami-parsonal-info-name">
             <a href="#">{ShafilAhmedC.name}</a>
-          </h4>
-          <span className="bostami-parsonal-info-bio mb-15">{ShafilAhmedC.title}</span>
-
+          </h4> */}
+          <div className="profile__descriptions mb-30">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+          </div>
+          <div className="section__profile__details profile__btn">
+            <ul>
+              <li><a href="" className="btn btn-3">About</a></li>
+              <li><a href="" className="btn btn-3">Products</a></li>
+              <li><a href="" className="btn btn-3">Services</a></li>
+            </ul>
+          </div>
           
-
           <div className="bostami-parsonal-info-btn mb-30"  >
             <a className="btn-1 circle mobile_version" href="/shafilahmedc.vcf" download>
               <span className="icon">

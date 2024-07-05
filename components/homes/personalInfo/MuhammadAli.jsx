@@ -1,11 +1,10 @@
 //import { profileInfo } from "@/data/profileInfo";
-import {VinodKumar_data} from "@/data/VinodKumar_data";
+import {MuhammadAli} from "@/data/MuhammadAli";
 import { socialMediaData } from "@/data/socials";
 import Image from "next/image";
 import React from "react";
 
-
-export default function KumarVinod() {
+export default function MuhammadAli() {
   return (
     <div className="col-12">
       <div className="bostami-parsonal-info-area bostami-parsonal-info-2-area">
@@ -14,15 +13,15 @@ export default function KumarVinod() {
             <Image
               width={240}
               height={240}
-              src={VinodKumar_data.imageSrcOne}
+              src={MuhammadAli.imageSrcOne}
               alt="Kumar Vinod"
             />
           </div>
 
           <h4 className="bostami-parsonal-info-name">
-            <a href="#">{VinodKumar_data.name}</a>
+            <a href="#">{MuhammadAli.name}</a>
           </h4>
-          <span className="bostami-parsonal-info-bio mb-15">{VinodKumar_data.title}</span>
+          <span className="bostami-parsonal-info-bio mb-15">{MuhammadAli.title}</span>
           {/* <span className="bostami-parsonal-info-bio ">{VinodKumar_data.Company}</span><br/>
           <span className="bostami-parsonal-info-bio ">{VinodKumar_data.Email}</span><br/>
           <span className="bostami-parsonal-info-bio ">{VinodKumar_data.Phone}</span><br/>

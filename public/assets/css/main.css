@@ -5183,3 +5183,42 @@ textarea:focus::placeholder {
 .dark-theme .bostami-parsonal-info-btn .btn-2 {
   color: #fff;
 }
+/* <-----------------Custom CSS-----------------> */
+
+.content-center{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 769px) {
+  .bostami-parsonal-info-area{
+    max-width: 600px;
+  }
+}
+
+
+
+.section__profile__details ul{
+  display: flex;
+  flex-direction: column column column;
+  justify-content: center;
+  align-items: center;
+}
+.section__profile__details ul li{
+  margin-left: 20px;
+}
+
+.btn-3{
+  padding: 10px 60px;
+  border: 2px solid #6C5DD3;
+  border-radius: 50px;
+  color: #6C5DD3;
+  
+}
+.btn-3:hover{
+  background: #6C5DD3;
+  color: #fff;
+}
+.active{
+  background: #6C5DD3;
+  color: #fff;
+}
